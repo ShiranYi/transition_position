@@ -1,0 +1,55 @@
+.simplecolumn {
+    position: relative;
+    display: flex;
+}
+.simplecolumn div:nth-child(1) {
+    position: absolute;
+    height: 290px;
+    width: 80px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: left;
+    top: 0;
+    left: 0;
+}
+.simplecolumn div:nth-child(2) {
+    position: absolute;
+    height: 290px;
+    width: 80px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: left;
+    top: 0;
+    left: 90px;
+
+}
+.simplecolumn div:nth-child(3) {
+    position: absolute;
+    height: 290px;
+    width: 80px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: left;
+    top: 0;
+    left: 180px;
+
+}
+.simplecolumn div:nth-child(4) {
+    position: absolute;
+    height: 290px;
+    width: 80px;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    text-align: left;
+    top: 0;
+    left: 270px;
+
+}

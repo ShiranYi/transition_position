@@ -1,0 +1,32 @@
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    margin: 150px 50px;
+    position: relative;
+}
+
+@keyframes move1 {
+	from {top: 0;}
+	to {left: 150px; top: 0;}
+	
+}
+@keyframes move2 {
+	from {left: 150px; top: 0;}
+	to {top: 150px; left: 150px;}
+	
+}
+@keyframes move3 {
+	from {top: 150px; left: 150px;}
+	to {left: 0; top: 150px;}
+	
+}
+
+@keyframes move4 {
+	from {left: 0; top: 150px;}
+	to {top: 0;}
+	
+}
+
